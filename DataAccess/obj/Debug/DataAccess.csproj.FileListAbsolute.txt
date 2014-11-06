@@ -1,0 +1,17 @@
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\DataAccess.pdb
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\Castle.Core.dll
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\EntityFramework.dll
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\Ninject.dll
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\Ninject.Extensions.Factory.dll
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\Castle.Core.xml
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\EntityFramework.xml
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\Ninject.xml
+E:\Diploma\Advanced-Testing-Package\DataAccess\bin\Debug\Ninject.Extensions.Factory.xml
+E:\Diploma\Advanced-Testing-Package\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Diploma\Advanced-Testing-Package\DataAccess\obj\Debug\DataAccess.Migrations.Initial.resources
+E:\Diploma\Advanced-Testing-Package\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+E:\Diploma\Advanced-Testing-Package\DataAccess\obj\Debug\DataAccess.dll
+E:\Diploma\Advanced-Testing-Package\DataAccess\obj\Debug\DataAccess.pdb

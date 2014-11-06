@@ -1,0 +1,10 @@
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\Migrations.dll
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\Migrations.pdb
+E:\Diploma\Advanced-Testing-Package\Migrations\obj\Debug\Migrations.csprojResolveAssemblyReference.cache
+E:\Diploma\Advanced-Testing-Package\Migrations\obj\Debug\Migrations.dll
+E:\Diploma\Advanced-Testing-Package\Migrations\obj\Debug\Migrations.pdb
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\Migrations.dll.config
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\EntityFramework.dll
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\EntityFramework.SqlServer.dll
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\EntityFramework.xml
+E:\Diploma\Advanced-Testing-Package\Migrations\bin\Debug\EntityFramework.SqlServer.xml

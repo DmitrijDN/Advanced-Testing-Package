@@ -1,0 +1,5 @@
+E:\Diploma\Advanced-Testing-Package\Testing\bin\Debug\Testing.dll
+E:\Diploma\Advanced-Testing-Package\Testing\bin\Debug\Testing.pdb
+E:\Diploma\Advanced-Testing-Package\Testing\obj\Debug\Testing.csprojResolveAssemblyReference.cache
+E:\Diploma\Advanced-Testing-Package\Testing\obj\Debug\Testing.dll
+E:\Diploma\Advanced-Testing-Package\Testing\obj\Debug\Testing.pdb
