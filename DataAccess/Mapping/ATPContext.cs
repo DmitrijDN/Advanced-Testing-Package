@@ -1,5 +1,7 @@
 ﻿
 using System.Data.Entity;
+using System.Linq;
+using System.Reflection;
 using DataAccess.Entities;
 using DataAccess.Infrastructure;
 using DataAccess.Migrations;
@@ -30,6 +32,7 @@ namespace DataAccess.Mapping
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<AtpContext, Configuration>());
             modelBuilder.Configurations.Add(new UserConfigurations());
             modelBuilder.Configurations.Add(new RoleConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

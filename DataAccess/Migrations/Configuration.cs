@@ -1,14 +1,11 @@
-using System.Data.Entity.Migrations;
 using DataAccess.Entities;
+using DataAccess.Mapping;
 
 namespace DataAccess.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<DataAccess.Mapping.AtpContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AtpContext>
     {
         public Configuration()
         {
@@ -16,7 +13,7 @@ namespace DataAccess.Migrations
             AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(DataAccess.Mapping.AtpContext context)
+        protected override void Seed(AtpContext context)
         {
             //  This method will be called after migrating to the latest version.
 
