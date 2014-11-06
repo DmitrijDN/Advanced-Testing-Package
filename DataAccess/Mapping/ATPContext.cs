@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using DataAccess.Entities;
 using DataAccess.Infrastructure;
+using DataAccess.Migrations;
 
 namespace DataAccess.Mapping
 {
@@ -26,6 +27,7 @@ namespace DataAccess.Mapping
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<AtpContext, Configuration>());
             modelBuilder.Configurations.Add(new UserConfigurations());
             modelBuilder.Configurations.Add(new RoleConfiguration());
         }
