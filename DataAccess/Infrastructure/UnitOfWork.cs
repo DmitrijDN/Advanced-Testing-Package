@@ -24,8 +24,8 @@ namespace DataAccess.Infrastructure
                 if (_currentContext == null)
                 {
                     //_currentContext = new AtpContext(@"Data Source=.\SQLEXPRESS;Initial Catalog=ATP;Integrated Security=True;");
-                    _currentContext = new AtpContext("name=ATPConnection");
-                    //_currentContext = new AtpContext();
+                    //_currentContext = new AtpContext("name=ATPConnection");
+                    _currentContext = new AtpContext();
 
                     //string connectionString = new System.Configuration.ConfigurationSettings.AppSettings["ConnectionString"]);
  
