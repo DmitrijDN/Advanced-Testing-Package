@@ -1,5 +1,0 @@
-E:\Diploma\Advanced-Testing-Package\Shared\bin\Debug\Shared.dll
-E:\Diploma\Advanced-Testing-Package\Shared\bin\Debug\Shared.pdb
-E:\Diploma\Advanced-Testing-Package\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
-E:\Diploma\Advanced-Testing-Package\Shared\obj\Debug\Shared.dll
-E:\Diploma\Advanced-Testing-Package\Shared\obj\Debug\Shared.pdb

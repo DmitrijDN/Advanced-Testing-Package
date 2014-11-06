@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Data.Entity;
+using System.Data.Entity.Core.EntityClient;
 using DataAccess.Entities;
 using DataAccess.Mapping;
 using DataAccess.Repositories;
@@ -22,9 +23,21 @@ namespace DataAccess.Infrastructure
             {
                 if (_currentContext == null)
                 {
-                    //_currentContext = new ATPContext(@"Data Source=.\SQLEXPRESS;Initial Catalog=ATP;Integrated Security=True;");
-                    //_currentContext = new AtpContext("ATPConnection");
-                    _currentContext = new AtpContext();
+                    //_currentContext = new AtpContext(@"Data Source=.\SQLEXPRESS;Initial Catalog=ATP;Integrated Security=True;");
+                    _currentContext = new AtpContext("name=ATPConnection");
+                    //_currentContext = new AtpContext();
+
+                    //string connectionString = new System.Configuration.ConfigurationSettings.AppSettings["ConnectionString"]);
+ 
+                    //System.Data.SqlClient.SqlConnectionStringBuilder scsb = new System.Data.SqlClient.SqlConnectionStringBuilder(connectionString);
+ 
+                    //EntityConnectionStringBuilder ecb = new EntityConnectionStringBuilder();
+                    //ecb.Metadata = "res://*/Sample.csdl|res://*/Sample.ssdl|res://*/Sample.msl";
+                    //ecb.Provider = "System.Data.SqlClient";
+                    //ecb.ProviderConnectionString = scsb.ConnectionString;
+ 
+                    //var dataContext = new SampleEntities(ecb.ConnectionString);
+
                 }
                 return _currentContext;
             }
